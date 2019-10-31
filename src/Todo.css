@@ -1,0 +1,77 @@
+* {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+body {
+  background: #457fca; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5691c8,
+    #457fca
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5691c8,
+    #457fca
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.taskfinished {
+  text-decoration: line-through;
+  font-size: 30px;
+  background-color: #5691c8;
+  width: 100%;
+  text-align: center;
+}
+
+.todo-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.list-cont {
+  width: 100%;
+}
+
+.task {
+  font-size: 30px;
+  background-color: #5691c8;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 150px;
+  height: 50px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5%;
+  margin-left: 45.5%;
+  margin-top: 10%;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgba(102, 187, 236, 0.884);
+}
+
+.todo-form {
+  width: 250px;
+  height: 30px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.add-btn {
+  width: 100px;
+  height: 40px;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5%;
+  margin-left: 45.5%;
+  margin-top: 10%;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: rgba(102, 187, 236, 0.884);
+}
